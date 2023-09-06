@@ -1,0 +1,9 @@
+*.csv
+*.json
+*.txt
+*.yaml
+*.xml
+*.zip
+*.pub
+.aws-sam
+base_dev.yml
