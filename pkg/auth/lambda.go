@@ -3,9 +3,9 @@ package auth
 import (
 	"context"
 	"crypto/rsa"
-	"lambda-sample/source/auth/awsS3"
-	"lambda-sample/source/sercfg"
-	"lambda-sample/source/wUtil"
+	"lambda-sample/pkg/auth/awsS3"
+	"lambda-sample/pkg/sercfg"
+	"lambda-sample/pkg/wUtil"
 	"time"
 
 	"github.com/aws/aws-lambda-go/events"

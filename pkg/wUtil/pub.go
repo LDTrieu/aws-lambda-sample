@@ -4,9 +4,13 @@ import (
 	"context"
 	"crypto/sha1"
 	"encoding/hex"
+	"errors"
 	"fmt"
+	"io"
+	"net/http"
+	"os"
 
-	"lambda-sample/source/model"
+	"lambda-sample/pkg/model"
 	"log"
 	"runtime"
 	"strings"
@@ -122,4 +126,31 @@ func GetLanguageByContext(ctx context.Context) string {
 		return language
 	}
 	return model.LanguageVN
+}
+
+func DownloadFile(url, fileName string) error {
+	//Get the response bytes from the url
+	response, err := http.Get(url)
+	if err != nil {
+		return err
+	}
+	defer response.Body.Close()
+
+	if response.StatusCode != 200 {
+		return errors.New("Received non 200 response code")
+	}
+	//Create a empty file
+	file, err := os.Create(fileName)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	//Write the bytes to the fiel
+	_, err = io.Copy(file, response.Body)
+	if err != nil {
+		return err
+	}
+
+	return nil
 }

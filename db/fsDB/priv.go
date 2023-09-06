@@ -3,9 +3,9 @@ package fsdb
 import (
 	"context"
 	"fmt"
-	"lambda-sample/source/fbservice"
-	"lambda-sample/source/model"
-	"lambda-sample/source/wUtil"
+	"lambda-sample/pkg/fbservice"
+	"lambda-sample/pkg/model"
+	"lambda-sample/pkg/wUtil"
 	"log"
 	"time"
 

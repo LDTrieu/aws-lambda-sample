@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"lambda-sample/source/model"
-	"lambda-sample/source/wUtil"
+	"lambda-sample/pkg/model"
+	"lambda-sample/pkg/wUtil"
 	"os"
 
 	"github.com/aws/aws-sdk-go/aws"

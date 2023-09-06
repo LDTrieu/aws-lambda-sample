@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"lambda-sample/source/model"
+	"lambda-sample/pkg/model"
 	"time"
 )
 

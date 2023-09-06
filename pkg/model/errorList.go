@@ -13,7 +13,7 @@ const (
 	CodeParseTimeErr              = 9
 	CodeOpenTempFileErr           = 10
 	CodeDBErr                     = 11
-	CodeFESOAPErr                 = 12
+
 	CodeReadFileErr               = 13
 	CodeBodySizeExceed            = 14
 	CodeRendJWTErr                = 15
@@ -33,7 +33,7 @@ const (
 	CodeMultiDevice               = 29
 	CodeDateStrInvalid            = 30
 	CodeCreateHttpReqErr          = 31
-	CodeFEServiceErr              = 32
+
 	CodeRefreshTokenErr           = 33
 	CodeSendHttpReqErr            = 34
 	CodeLinkOldToNewTempFileErr   = 35

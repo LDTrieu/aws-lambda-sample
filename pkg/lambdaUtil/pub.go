@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"lambda-sample/source/auth/sys"
-	"lambda-sample/source/model"
-	"lambda-sample/source/wUtil"
+	"lambda-sample/pkg/auth/sys"
+	"lambda-sample/pkg/model"
+	"lambda-sample/pkg/wUtil"
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"

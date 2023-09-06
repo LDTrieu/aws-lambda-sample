@@ -2,8 +2,8 @@ package fbservice
 
 import (
 	"context"
-	"lambda-sample/source/model"
-	"lambda-sample/source/wUtil"
+	"lambda-sample/pkg/model"
+	"lambda-sample/pkg/wUtil"
 
 	"cloud.google.com/go/firestore"
 	firebase "firebase.google.com/go"

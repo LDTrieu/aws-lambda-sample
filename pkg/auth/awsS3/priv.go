@@ -3,7 +3,7 @@ package awsS3
 import (
 	"os"
 
-	"lambda-sample/source/wUtil"
+	"lambda-sample/pkg/wUtil"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"

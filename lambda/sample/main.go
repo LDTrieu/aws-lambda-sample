@@ -2,10 +2,10 @@ package main
 
 import (
 	"context"
-	"lambda-sample/lambda/sample/checker"
-	lambdautil "lambda-sample/source/lambdaUtil"
-	"lambda-sample/source/model"
-	"lambda-sample/source/wUtil"
+	"lambda-sample/lambda/sample/checkAPI"
+	lambdautil "lambda-sample/pkg/lambdaUtil"
+	"lambda-sample/pkg/model"
+	"lambda-sample/pkg/wUtil"
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"

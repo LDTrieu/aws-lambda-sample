@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"lambda-sample/source/model"
+	"lambda-sample/pkg/model"
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"

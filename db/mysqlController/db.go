@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"lambda-sample/source/sercfg"
-	"lambda-sample/source/wUtil"
+	"lambda-sample/pkg/sercfg"
+	"lambda-sample/pkg/wUtil"
 	"log"
 	"time"
 )

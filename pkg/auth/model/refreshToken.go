@@ -1,6 +1,6 @@
 package model
 
-import "lambda-sample/source/auth/sys"
+import "lambda-sample/pkg/auth/sys"
 
 type RefreshTokenReq struct {
 	InstallationID  string

@@ -3,7 +3,7 @@ package sercfg
 import (
 	"context"
 	"encoding/json"
-	"lambda-sample/source/auth/awsS3"
+	"lambda-sample/pkg/auth/awsS3"
 
 	"log"
 	"os"

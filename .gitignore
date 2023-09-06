@@ -6,4 +6,5 @@
 *.zip
 *.pub
 .aws-sam
-base_dev.yml
+Makefile
+sample_dev.yml
